@@ -120,6 +120,7 @@ const getAllUserById = async (req, res) => {
 //     }
 // }
 
+
 const updateUser = async (req, res) => {
   let userId = req.params.id;
   console.log(req.body);

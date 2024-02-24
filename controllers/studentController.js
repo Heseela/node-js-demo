@@ -169,7 +169,7 @@ const updateStudent=async(req,res)=>{
       console.log("Error",error);
       res.status(500).json({message:"Internal Server error!!"})
   }
-    }
+}
 
 const deleteStudent=async(req,res)=>{
     let studentId = req.params.id
@@ -190,10 +190,8 @@ const deleteStudent=async(req,res)=>{
         console.log("Error",error);
         res.status(500).json({message:"Internal server error!!"})
     }
-    }
+}
     
-
-
 
 module.exports={
     getAllStudent,
