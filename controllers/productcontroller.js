@@ -91,6 +91,5 @@ const getproductById = async (req, res) => {
 module.exports = {
     getAllproduct,
     createproduct,
-    getproductById,
-    
+    getproductById
 }
