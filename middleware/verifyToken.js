@@ -28,4 +28,5 @@ function verifyToken(req, res, next){  //get the token from request headers
   }
 }
 
+
 module.exports = verifyToken

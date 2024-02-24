@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 const product = require("../models/product");
 const customer = require("../models/customer");
 
-
 const getAllcustomer= async (req,res) => {
 
     try{
