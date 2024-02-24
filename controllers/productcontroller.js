@@ -92,4 +92,5 @@ module.exports = {
     getAllproduct,
     createproduct,
     getproductById
+    
 }
