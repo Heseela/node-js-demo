@@ -95,6 +95,3 @@ module.exports={
     createBook,
     getBookById
 }
-
-
-
