@@ -58,7 +58,7 @@ const createproduct = async (req, res) => {
         console.log("Error", error)
         return res.status(500).json({message: "Internal Server Error!!"})
      }
-    }
+}
 
 const getproductById = async (req, res) => {
   let productId = req.params.id
